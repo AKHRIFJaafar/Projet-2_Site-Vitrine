@@ -1,3 +1,23 @@
 /*
 Custom Css
-*/
+*/ 
+.list-group {
+   float: left;
+   margin-left: 70px;
+   margin-top: 150px;
+    
+
+
+}
+
+.dd {float:right;    
+  margin-right: 50px; 
+margin-top: 50px; }
+
+.bb {
+    margin-top: 600px;
+}
+
+.list-group-item {
+    color: crimson;
+}

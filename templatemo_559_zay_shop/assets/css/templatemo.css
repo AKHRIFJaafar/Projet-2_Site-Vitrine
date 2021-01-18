@@ -55,7 +55,7 @@ body, ul, li, p, a, label, input, div {
 .text-success { color: #ff0000 !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
-.bg-light { background-color: #e9eef5 !important;}
+.bg-light { background-color: #ffffff !important;}
 .bg-black { background-color: #1d242d !important;}
 .bg-success { background-color: #59ab6e !important;}
 .btn-success {
@@ -71,7 +71,7 @@ body, ul, li, p, a, label, input, div {
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a:hover { color: #ff0000;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */

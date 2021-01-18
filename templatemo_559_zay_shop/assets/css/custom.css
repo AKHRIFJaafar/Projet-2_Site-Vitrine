@@ -1,23 +1,45 @@
-/*
-Custom Css
-*/ 
 .list-group {
-   float: left;
-   margin-left: 70px;
-   margin-top: 150px;
-    
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+     
+ 
+ 
+ }
+ 
+ .dd {float:right;    
+   margin-right: 50px; 
+ margin-top: 50px;
+  margin-bottom:20px ;
 
+}
+ 
+ .bb {
+     margin-top: 0px;
+ }
+ 
+ .list-group-item {
+     color: rgb(0, 0, 0);
+     text-align: center;
+ }
+
+ .list-group-item:hover {
+     color: red;
+ }
+
+ .text-left{
+     text-align: center;
+ }
+ 
+
+#templatemo_main_nav {
+    margin-left: 550px;
+    padding-right: 3px;
+}
+.bg-light {
+     margin-left: 300px;
+     margin-right: 35px;
+     padding-top: 0px;
 
 }
 
-.dd {float:right;    
-  margin-right: 50px; 
-margin-top: 50px; }
-
-.bb {
-    margin-top: 600px;
-}
-
-.list-group-item {
-    color: crimson;
-}

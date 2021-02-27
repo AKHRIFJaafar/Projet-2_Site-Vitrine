@@ -58,13 +58,11 @@ padding-right: 80px;
 text-align:center;
 
 }
-.number{
-    text-align: center;
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.email{
-    padding-left: 80px;
-}
-.position{
-    float: right;
-    
+.socialmedia li{
+    padding: 15px;
 }

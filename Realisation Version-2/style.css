@@ -17,3 +17,8 @@ body{
 h1{
     font-size: 48px!important;
 }
+.card img{
+    height: 30vh;
+    align-items: center;
+    padding: 10px;
+}

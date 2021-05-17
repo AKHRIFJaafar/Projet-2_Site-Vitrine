@@ -14,33 +14,7 @@
  
 </head>
   <body>
-        <!-- Navbar -->
-          <nav class="">
-            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 navbar navbar-expand-lg navbar-light bg-white">
-                  <a class="navbar-brand  " href="index.html"><h1 class="font-weight-bold ml-4 ">Bri-Tools</h1></a>
-                  <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarNav"
-                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end mr-4 text-center " id="navbarNav" >
-                    <ul class="navbar-nav">
-                      <li class="nav-item active "  >
-                        <a class="nav-link " href="index.html"> Home </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                      </li>
-                      <li class="nav-item" >
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-          </nav>
-       <!-- Close Navbar -->
+    <?php include 'header.php'; ?>
     <div class=" row bg-success col-md-12 text-center">
         <div class="col-xs-12 text-center col-md-6">
           <h5 class="display-4 mt-5 text-center text-white font-weight-bold ">ABOUT US!</h6>
@@ -93,19 +67,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="container py-5">
-        <div class="row text-center pb-4">
-            <div class="col-lg-6 m-auto">
-                <h1 class="">Our Brands</h1>
-                <p>
-                    pour votre commandité, service A domicile
-                </p>
-            </div>
-        </div>
-</section>
-
 
     <!-- Start Brands -->
     <section class="bg-light py-5">
@@ -121,9 +82,9 @@
                 <div class="col-lg-9 m-auto tempaltemo-carousel">
                     <div class="row d-flex flex-row">
                         <!--Controls-->
-                        <div class="col-1 align-self-center">
+                        <div class="col-2 align-self-center">
                             <a class="h1" href="#GetAnotherSlide" role="button" data-bs-slide="prev">
-                                <i class="bi bi-chevron-double-left"></i>
+                                <i class="bi bi-chevron-left"></i>
                             </a>
                         </div>
                         <!--End Controls-->
@@ -137,18 +98,16 @@
                                     <!--First slide-->
                                     <div class="carousel-item active">
                                         <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/3m.png" alt="Brand Logo"></a>
+                                            <div class="col-4" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/3m.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/bosch.png" alt="Brand Logo"></a>
+                                            <div class="col-4" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/bosch.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/roca.png" alt="Brand Logo"></a>
+                                            <div class="col-4" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/roca.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/makute.png" alt="Brand Logo"></a>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                     <!--End First slide-->
@@ -156,18 +115,16 @@
                                     <!--Second slide-->
                                     <div class="carousel-item">
                                         <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/3m.png" alt="Brand Logo"></a>
+                                            <div class="col-2" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/3m.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/bosch.png" alt="Brand Logo"></a>
+                                            <div class="col-2" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/bosch.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/roca.png" alt="Brand Logo"></a>
+                                            <div class="col-2" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/roca.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/makute.png" alt="Brand Logo"></a>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                     <!--End Second slide-->
@@ -175,18 +132,16 @@
                                     <!--Third slide-->
                                     <div class="carousel-item">
                                         <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/3m.png" alt="Brand Logo"></a>
+                                            <div class="col-2" >
+                                                <a href="#"><img class="img-fluid brand-img" style="width: 50px; height: 50px;" src="/images/3m.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
+                                            <div class="col-2" style="height: 40px; width: 40px;">
                                                 <a href="#"><img class="img-fluid brand-img" src="/images/bosch.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
+                                            <div class="col-2" style="height: 40px; width: 40px;">
                                                 <a href="#"><img class="img-fluid brand-img" src="/images/roca.png" alt="Brand Logo"></a>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="/images/makute.png" alt="Brand Logo"></a>
-                                            </div>
+                                        
                                         </div>
                                     </div>
                                     <!--End Third slide-->
@@ -198,9 +153,9 @@
                         <!--End Carousel Wrapper-->
 
                         <!--Controls-->
-                        <div class="col-1 align-self-center">
+                        <div class="col-2 align-self-center">
                             <a class="h1" href="#GetAnotherSlide" role="button" data-bs-slide="next">
-                                <i class="bi bi-chevron-double-right"></i>
+                                <i class="bi bi-chevron-right"></i>
                             </a>
                         </div>
                         <!--End Controls-->
